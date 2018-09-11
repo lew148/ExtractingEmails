@@ -20,16 +20,14 @@ public class Main {
         Matcher matcher = pattern.matcher(inputtext);
 
         int counter = 0;
-        boolean findCheck = true;
 
-        while (findCheck == true) {
-            findCheck = matcher.find();
+        while (matcher.find()) {
             counter = counter + 1;
 
         }
 
 
-        System.out.println(counter-1);
+        System.out.println(counter);
 
     }
 }
