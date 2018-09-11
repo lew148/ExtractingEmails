@@ -4,3 +4,5 @@
 ExtractingEmails\.iml
 
 *.class
+
+out/production/ExtractingEmails/com/company/
