@@ -8,7 +8,7 @@ public class Main {
         try {
             Utilities.readFile("C:\\Work\\Training\\ExtractingEmails\\sampletext.txt");
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("An error has occurred! File may not exist.");
         }
     }
 }
