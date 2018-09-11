@@ -42,7 +42,7 @@ System.out.println(counter);
 
         while (domainMatcher.find()) {
             String domainName = domainMatcher.group(1);
-            int startValue = 0;
+            int startValue = 1;
 
             if (domainMap.containsKey(domainName) == true) {
                 int value = domainMap.get(domainName);
