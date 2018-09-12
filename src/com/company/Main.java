@@ -1,9 +1,12 @@
 package com.company;
 
+import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
+
 import java.io.IOException;
-import java.util.HashMap;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 
 public class Main {
 
@@ -55,6 +58,12 @@ System.out.println(counter);
 
 
         System.out.println(domainMap);
+
+
+        Collections<Integer> domainValues = domainMap.values();
+
+
+
 
 
     }
